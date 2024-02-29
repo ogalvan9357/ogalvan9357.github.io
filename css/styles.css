@@ -105,7 +105,7 @@ h3 {
     border-radius: 10px;
 }
 
-/*----- Image Gallery -----*/
+/*----- Image Galleries -----*/
 
 .divimg {
     width: 1425px; 
@@ -135,11 +135,15 @@ h3 {
 }
 
 #size2 {
-    width: 35%;
+    width: 40%;
     border-radius: 10px;
 }
 
-/*----- Gallery Ends -----*/
+#size3 {
+    width:40%;
+    text-align: center;
+}
+/*----- Galleries Ends -----*/
 
 p {
     color: darkslategrey;
