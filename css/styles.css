@@ -95,7 +95,7 @@ h3 {
     font-family: "Caprasimo", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 .homeimg {
     display: block;
@@ -131,26 +131,43 @@ h3 {
 #size {
     width: 20%;
     padding: 4%;
-    border-radius: 10px;
 }
 
 #size2 {
     width: 40%;
-    border-radius: 10px;
+    padding: 2%;
 }
 
 #size3 {
     width:40%;
+    padding: 2%;
     text-align: center;
 }
+
 /*----- Galleries Ends -----*/
 
+/*----- Text Columns -----*/
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 p {
-    color: darkslategrey;
-    text-align: left;
-    padding: 20px;
+    color: rgb(57, 85, 85);
+    margin-right: 500px;
+    margin-left: 15px;
+    padding: 2px;
     font-size: 17px;
 }
+
+/*----- Text Column Ends -----*/
 
 /*----- This is the Progress Bar -----*/
 
