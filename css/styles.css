@@ -130,7 +130,7 @@ h3 {
 
 #size {
     width: 20%;
-    padding: 4%;
+    padding: 6%;
 }
 
 #size2 {
@@ -147,13 +147,13 @@ h3 {
 /*----- Galleries Ends -----*/
 
 /*----- Text Columns -----*/
-
 .column {
     float: left;
     width: 33.33%;
-  }
-  
-  .row:after {
+    border-radius: 10px;
+}
+
+.row:after {
     content: "";
     display: table;
     clear: both;
@@ -161,8 +161,6 @@ h3 {
 
 p {
     color: rgb(57, 85, 85);
-    margin-right: 500px;
-    margin-left: 15px;
     padding: 2px;
     font-size: 17px;
 }
