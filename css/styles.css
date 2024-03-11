@@ -175,10 +175,12 @@ p {
     overflow: hidden;
     width: 70%;
     padding:10px;
+    padding-top:0%;
 }
 
 .textstyle {
     padding:10px;
+    padding-top:0%;
 }
 
 /*----- Text Column Ends -----*/
@@ -219,10 +221,12 @@ p {
     text-decoration: none;
     list-style-type: none;
     padding: 5px;
+    padding-right: 10px;
     font-size: 17px;
 }
 
 .footer {
     background-color: rgb(175, 200, 247);
     border-radius: 10px;
+    text-align: right;
 }
